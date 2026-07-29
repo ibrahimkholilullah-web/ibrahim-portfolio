@@ -892,8 +892,8 @@ header.main-header .header-sticky.active{
 }
 
 .hero-body-content p{
-	font-size: 22px;
-	font-weight: 600;
+	font-size: 18px;
+	font-weight: 400;
 	color: var(--primary-color);
 	margin: 20px 0 0;
 }
@@ -7772,6 +7772,10 @@ header.main-header.main-header-elite .navbar{
 
 .footer-privacy-policy-elite ul li a:hover{
 	color: var(--accent-color);
+}
+
+.about-us-kwy-point > li{
+  padding: 5px 0px;
 }
 
 @media only screen and (max-width: 1366px){
