@@ -316,6 +316,13 @@
 }
 
 
+@media(max-width:1290px){
+
+.skills-section{
+    padding: 20px 3%;
+}
+
+}
 
 
 /* Responsive */
