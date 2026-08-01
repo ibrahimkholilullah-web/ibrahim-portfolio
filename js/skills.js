@@ -62,31 +62,28 @@ const data={
 
 shopify:[
     {
-        title:"Fashion Store",
-        image:"https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
-        desc:"Premium Shopify ecommerce store focused on conversions.",
-        tags:["Shopify","Liquid"],
-        live:"#",
-        github:"#",
-        whatsapp:"#"
+        title:"Skin Care Store",
+        image:"images/Skin Care Store.png",
+        desc:"Premium Shopify Skin Care products store focused on conversions.",
+        tags:["Theme Customization","Liquid","Premium theme","Apps Set-up" ],
+        live:"https://0j8fpv-pi.myshopify.com/",
+        whatsapp:"https://wa.me/8801635712824"
     },
     {
-        title:"Single Product Store",
-        image:"https://images.unsplash.com/photo-1556740749-887f6717d7e4",
-        desc:"High converting Shopify single product experience.",
-        tags:["CRO","Shopify"],
-        live:"#",
-        github:"",
-        whatsapp:"#"
+        title:"Nero Veil – Luxury Modest Fashion Shopify Store",
+        image:"images/Nero Veil – Luxury Modest Fashion Shopify Store.png",
+        desc:"The website focuses on elegant visuals, clean layouts, smooth shopping experience, and a high-end fashion feel.",
+        tags:["CRO","Shopify", "products upload", "Size Chart"],
+        live:"https://www.neroveil.com/",
+        whatsapp:"https://wa.me/8801635712824"
     },
     {
-        title:"Dropshipping Store",
-        image:"https://images.unsplash.com/photo-1524758631624-e2822e304c36",
-        desc:"Complete Shopify store setup with optimized shopping flow.",
-        tags:["Apps","Marketing"],
-        live:"#",
-        github:"#",
-        whatsapp:""
+        title:"Swing Daddy – Premium Golf Apparel Shopify Store",
+        image:"images/Swing Daddy – Premium Golf Apparel Shopify Store.png",
+        desc:"Designed and developed a modern Shopify eCommerce store for a golf apparel brand, combining bold lifestyle visuals with a high-converting shopping experience.",
+        tags:["Ecommerce Design","Lifestyle-focused", "Mobile-friendly"],
+        live:"https://www.swingdaddy.co.za/",
+        whatsapp:"https://wa.me/8801635712824"
     }
 ]
 
