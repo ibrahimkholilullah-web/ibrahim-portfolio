@@ -953,39 +953,39 @@
                         <!-- Section Title End -->
 
                         <!-- Contact Form Start -->
-                        <form id="contactForm" action="#" method="POST" data-toggle="validator">
-                            <div class="row">
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name*" required>
-                                    <div class="help-block with-errors"></div>
-                                </div>
+                        <form id="contactForm" action="process-form.php" method="POST" data-toggle="validator">
+    <div class="row">
+        <div class="form-group col-md-6 mb-4">
+            <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name*" required>
+            <div class="help-block with-errors"></div>
+        </div>
 
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name*" required>
-                                    <div class="help-block with-errors"></div>
-                                </div>
+        <div class="form-group col-md-6 mb-4">
+            <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name*" required>
+            <div class="help-block with-errors"></div>
+        </div>
 
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number*" required>
-                                    <div class="help-block with-errors"></div>
-                                </div>
+        <div class="form-group col-md-6 mb-4">
+            <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone Number*" required>
+            <div class="help-block with-errors"></div>
+        </div>
 
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="email" name ="email" class="form-control" id="email" placeholder="Email Address*" required>
-                                    <div class="help-block with-errors"></div>
-                                </div>
+        <div class="form-group col-md-6 mb-4">
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email Address*" required>
+            <div class="help-block with-errors"></div>
+        </div>
 
-                                <div class="form-group col-md-12 mb-5">
-                                    <textarea name="message" class="form-control" id="message" rows="5" placeholder="Any Message..."></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
+        <div class="form-group col-md-12 mb-5">
+            <textarea name="message" class="form-control" id="message" rows="5" placeholder="Any Message..."></textarea>
+            <div class="help-block with-errors"></div>
+        </div>
 
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn-default btn-highlighted">Submit Message</button>
-                                    <div id="msgSubmit" class="h3 hidden"></div>
-                                </div>
-                            </div>
-                        </form>
+        <div class="col-md-12">
+            <button type="submit" id="submitBtn" class="btn-default btn-highlighted">Submit Message</button>
+            <div id="msgSubmit" class="p hidden text-center mt-3"></div>
+        </div>
+    </div>
+</form>
                         <!-- Contact Form End -->
                     </div>
                     <!-- Contact Now Form End -->
@@ -1080,6 +1080,8 @@
                                     <input type="email" name="mail" class="form-control" id="mail" placeholder="Enter Email Address *" required>
                                     <button type="submit" class="newsletter-btn"><i class="fa-regular fa-paper-plane"></i></button>
                                 </div>
+                                <!-- মেসেজ দেখানোর জন্য এই লাইনটি যোগ করা হয়েছে -->
+                                <div id="newsletterMsg" style="margin-top: 8px; font-size: 14px;"></div>
                             </form>
                         </div>
                         <!-- Footer Newsletter Form End -->                        
@@ -1187,6 +1189,10 @@
 	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel-dynamic.js"></script>
     <!-- skills section js -->
      <script src="/js/skills.js"></script>
+         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script src="/js/form-submit.js"></script>
+     <!-- EmailJS SDK -->
 </body>
 
 <!-- Mirrored from html.awaikenthemes.com/weblance/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jul 2026 07:19:58 GMT -->
