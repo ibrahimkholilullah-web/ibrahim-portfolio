@@ -793,7 +793,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero-box{
-	min-height: 700px;
+	min-height: 500px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -4438,7 +4438,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero-header .section-title h1{
-		font-size: 76px;
+		font-size: 60px;
 	}
 
 	.hero-body-content-box,
@@ -5705,7 +5705,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.hero-header .section-title h1{
-		font-size: 28px;
+		font-size: 28px !important;
 	}
 
 	.hero-header .years-experience-circle{
@@ -10520,7 +10520,12 @@ header.main-header.main-header-elite .navbar{
 .footer-social-links-royal ul li a i{
 	color: inherit;
 }
-
+@media only screen and (max-width: 1300px){
+	.hero-header .section-title h1{
+	text-transform: uppercase;
+	font-size: 60px;
+}
+}
 @media only screen and (max-width: 1024px){
 
 	.hero-content-body-royal{
